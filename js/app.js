@@ -90,7 +90,6 @@ const loadPhoneDetails = id => {
 }
 
 const displayPhoneDetails = phone => {
-    console.log(phone);
     const modalTitle = document.getElementById('phoneDetailsModalLabel');
     modalTitle.innerText = phone.name;
     const phoneDetailsBody = document.getElementById('phone-details-body');
